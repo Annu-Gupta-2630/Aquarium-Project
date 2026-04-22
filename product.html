@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquarium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar navbar-light bg-white">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="/img/logo.webp" alt="logo" class="logo-img img-fluid">
+                <span class="ms-2 company-name">Deep Bloom World</span>
+            </a>
+            <!-- Toggle Button -->
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Center Menu -->
+                <ul class="navbar-nav mx-auto text-center fw-semibold gap-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="product.html">Product</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Right Side -->
+                <div class="d-flex align-items-center gap-3 flex-lg-row flex-column mt-3 mt-lg-0">
+                    <!-- Cart Icon -->
+                    <a href="#" class="cart-icon">
+                        <i class="bi bi-cart3"></i>
+                    </a>
+                    <!-- Contact Button -->
+                    <a href="contact.html" class="btn contact-btn">
+                        Contact For Query
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section class="blog-hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-7 text-white">
+
+                    <p class="hero-small">Deep Bloom World</p>
+
+                    <h1 class="hero-heading">
+                        Our Aquarium <br> Product
+                    </h1>
+
+                    <div class="hero-line"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product -->
+    <section class="product-section py-5">
+        <div class="container">
+            <div class="row mb-4 align-items-center">
+                <div class="col-md-6">
+                    <h2 class="product-title">Aquarium Products</h2>
+                    <p>Deep Bloom World Collection</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="nav product-tabs justify-content-md-end">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#allp">All</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#food">Fish Food</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tank">Tanks</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#decor">Decor</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content">
+                <!-- all -->
+                <div class="tab-pane fade show active" id="allp">
+                    <div class="row g-4">
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/aquapump.webp">
+                                <h6>VENUS AQUA VS-420F Aquarium
+                                    Internal Filter Suitable for Small Mini Tank <br>(10-20 Litre) (Power: 6W, Flow MAX:
+                                    500 L/H)</h6>
+                                <p>&#8377;260</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/sebopro.webp">
+                                <h6>SOBO Internal WP-1200F Power
+                                    Aquarium Filter (Mechanical Filtration for Salt Water and Fresh Water)</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro3.webp">
+                                <h6>Venus Aqua Aquarium Air Pump Ap-408A</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro4.webp">
+                                <h6>Venus Aqua AP-208 Aquarium Fish
+                                    Tank Air Pump - Single Nozzle, Low
+                                    Noise 2-Speed, 2.5W Power, 3.5L/Min
+                                    Air Flow for Efficient Oxygenation and Optimal Tank Health</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro5.webp">
+                                <h6>SOBO WP-3000F Power Aquarium
+                                    Filter (Mechanical Filtration for Salt Water and Fresh Water)</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro6.webp">
+                                <h6>RS ELECTRICAL 200 W Automatic on Off Facility Aquarium Glass Heater
+                                    Submersible Aquarium Immersion
+                                    Heater</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro7.webp">
+                                <h6>Sobo Aquarium Internal Filter <br>(WP-850F | 4W | 400 L/H)</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro8.webp">
+                                <h6>SOBO Aquarium Top Filter WP-2880F (Power:-30W | F.Max:1800L/Hr) Power Aquarium <br>
+                                    Filter (Mechanical Filtration for Salt Water and Fresh Water)</h6>
+                                <p>&#8377;990</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro9.webp">
+                                <h6>SOBO SB 108 Single Nozzle <br> Air Aquarium Pump (75 cm)</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro10.webp">
+                                <h6>SOBO SB 548 A Air<br> Aquarium Pump (24 cm)</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro11.webp">
+                                <h6>Venus Aqua U6602 Aquarium Power
+                                    Head for All Aquariums 1200 L/Hr <br> -20 Watt Motor - 1.2 Meter Head Pure
+                                    Copper Motor</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro12.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro13.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro14.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro15.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro16.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro17.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro18.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro19.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro20.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro21.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro22.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro23.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/pro24.webp">
+                                <h6>Glass Tank</h6>
+                                <p>&#8377;3,999</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- food -->
+                <div class="tab-pane fade" id="food">
+                    <div class="row g-4">
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/fish_food.webp">
+                                <h6>Goldfish Food</h6>
+                                <p>&#8377;199</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/fish_food1.webp">
+                                <h6>Goldfish Food</h6>
+                                <p>&#8377;199</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/fish_food7.webp">
+                                <h6>Goldfish Food</h6>
+                                <p>&#8377;199</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/fish_food3.webp">
+                                <h6>Goldfish Food</h6>
+                                <p>&#8377;199</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/fish_food4.webp">
+                                <h6>Goldfish Food</h6>
+                                <p>&#8377;199</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/fish_food5.webp">
+                                <h6>Goldfish Food</h6>
+                                <p>&#8377;199</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/fish_food6.webp">
+                                <h6>Goldfish Food</h6>
+                                <p>&#8377;199</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/fish_food2.webp">
+                                <h6>Goldfish Food</h6>
+                                <p>&#8377;199</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- tank -->
+                <div class="tab-pane fade" id="tank">
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_1.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_2.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_3.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_4.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_5.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_6.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_7.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_8.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_9.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_10.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/tank_11.webp">
+                                <h6>Mini Aquarium</h6>
+                                <p>&#8377;2,499</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- decor -->
+                <div class="tab-pane fade" id="decor">
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/decor_1.webp">
+                                <h6>Coral Decor</h6>
+                                <p>&#8377;599</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/decor_2.webp">
+                                <h6>Coral Decor</h6>
+                                <p>&#8377;599</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/decor_3.webp">
+                                <h6>Coral Decor</h6>
+                                <p>&#8377;599</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/decor_4.webp">
+                                <h6>Coral Decor</h6>
+                                <p>&#8377;599</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/decor_1.webp">
+                                <h6>Shell Cave Decor</h6>
+                                <p>&#8377;599</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/decor_2.webp">
+                                <h6>Ocean Bridge Decor</h6>
+                                <p>&#8377;599</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="product-card">
+                                <img src="/img/decor_3.webp">
+                                <h6>Coral Reef Accent</h6>
+                                <p>&#8377;599</p>
+                                <button class="add-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Additional Product Section -->
+    <section class="product-section py-5">
+        <div class="container">
+            <div class="mb-5">
+                <h2 class="product-title">Additional Products</h2>
+                <p class="product-subtitle text-muted">
+                    Explore premium quality products from Deep Bloom World
+                </p>
+            </div>
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-md-3">
+                    <div class="product-card">
+                        <a href="product1.html"><img src="/img/additional_1.webp" alt="Fish Food"></a>
+                        <h5>Premium Fish Food</h5>
+                        <p class="text-muted">Healthy nutrition for aquarium fish</p>
+                        <p class="price">&#8377;299</p>
+                        <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-md-3">
+                    <div class="product-card">
+                        <a href="product2.html"><img src="/img/additional_2.webp" alt="Aquarium Tank"></a>
+                        <h5>Glass Aquarium Tank</h5>
+                        <p class="text-muted">Strong and crystal clear glass material</p>
+                        <p class="price">&#8377;3,999</p>
+                        <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-md-3">
+                    <div class="product-card">
+                        <a href="product3.html"><img src="/img/additional_3.webp" alt="LED Light"></a>
+                        <h5>LED Aquarium Light</h5>
+                        <p class="text-muted">Energy saving colorful lighting</p>
+                        <p class="price">&#8377;899</p>
+                        <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-md-3">
+                    <div class="product-card">
+                        <a href="product4.html"><img src="/img/additional_4.webp" alt="Coral Decor"></a>
+                        <h5>Artificial Coral Decor</h5>
+                        <p class="text-muted">Beautiful underwater decoration</p>
+                        <p class="price">&#8377;499</p>
+                        <button class="add-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aqua-showcase-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <span class="aqua-eyebrow">SHOP WITH CONFIDENCE</span>
+                    <h2 class="aqua-section-title">Products that look premium and work well in real aquariums.</h2>
+                    <p class="aqua-section-text">From filters and pumps to decor and lighting, we focus on practical essentials that also improve the visual feel of your tank.</p>
+                    <div class="aqua-mini-list">
+                        <div class="aqua-mini-card">
+                            <img src="/img/pro18.webp" alt="Tank accessories">
+                            <div>
+                                <h6>Performance picks</h6>
+                                <p>Reliable accessories chosen for daily use and cleaner tank presentation.</p>
+                            </div>
+                        </div>
+                        <div class="aqua-mini-card">
+                            <img src="/img/pro24.webp" alt="Decor selection">
+                            <div>
+                                <h6>Decor collection</h6>
+                                <p>Natural-looking additions that make small and large tanks feel more complete.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="aqua-media-stack">
+                        <img src="/img/producta.webp" alt="Aquarium product collection" class="aqua-main-media">
+                        <div class="aqua-floating-media">
+                            <img src="/img/additional_4.webp" alt="Coral decor product">
+                            <div>
+                                <span>Featured Bundle</span>
+                                <strong>Decor, lighting, and care essentials curated for stylish setups.</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aqua-experience-band">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="aqua-experience-card">
+                        <img src="/img/pro6.webp" alt="Tank safe products">
+                        <h5>Tank-safe picks</h5>
+                        <p>Carefully selected accessories and essentials that work well for daily aquarium use.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aqua-experience-card">
+                        <img src="/img/pro15.webp" alt="Decor styling">
+                        <h5>Stylish layouts</h5>
+                        <p>Products that support cleaner presentation, better depth, and a more premium tank look.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aqua-experience-card">
+                        <img src="/img/fish_food5.webp" alt="Daily fish care">
+                        <h5>Daily care ready</h5>
+                        <p>Food, lighting, and maintenance choices that make aquarium care easier for customers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="db-footer">
+        <div class="db-container">
+            <!-- Left Section -->
+            <div class="db-col">
+                <div class="db-logo">
+                    <img src="/img/newlogo.webp" alt="Deep Bloom Logo">
+
+                    <p class="tag">Amazing Aquarium</p>
+                </div>
+                <p><b>Location:</b> Chinhat, Lucknow, India</p>
+                <p><b>Phone:</b> +91 0000000000</p>
+                <p><b>Email:</b> info@deepbloom.com</p>
+                <p><b>Opening hours:</b> 9:00 AM - 6:00 PM</p>
+
+                <div class="db-social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <!-- Middle Section -->
+            <div class="db-col">
+                <h3>Menu & Links</h3>
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="product.html">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Right Section -->
+            <div class="db-col">
+                <h3>Instagram</h3>
+                <div class="db-gallery">
+                    <img src="/img/insta1.webp">
+                    <img src="/img/insta2.webp">
+                    <img src="/img/insta3.webp">
+                    <img src="/img/insta4.webp">
+                    <img src="/img/insta5.webp">
+                    <img src="/img/insta6.webp">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- copyright -->
+    <div class="copyright-section">
+        <div class="container">
+            <p>&copy; 2026 Awesome Aquarium. All Rights Reserved. | Privacy &amp; Terms</p>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/java%20script/site.js"></script>
+
+</html>
+
+

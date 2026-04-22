@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquarium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar navbar-light bg-white">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="/img/logo.webp" alt="logo" class="logo-img img-fluid">
+                <span class="ms-2 company-name">Deep Bloom World</span>
+            </a>
+
+            <!-- Toggle Button -->
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Center Menu -->
+                <ul class="navbar-nav mx-auto text-center fw-semibold gap-lg-4">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+                <!-- Right Side -->
+                <div class="d-flex align-items-center gap-3 flex-lg-row flex-column mt-3 mt-lg-0">
+
+                    <!-- Cart Icon -->
+                    <a href="#" class="cart-icon">
+                        <i class="bi bi-cart3"></i>
+                    </a>
+
+                    <!-- Contact Button -->
+                    <a href="contact.html" class="btn contact-btn">
+                        Contact For Query
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section class="contact-hero d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span class="contact-subtitle">Deep Bloom World</span>
+                    <h1 class="contact-title">
+                        Contact Us
+                    </h1>
+                    <div class="contact-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- form section -->
+    <section class="dbw-form-section">
+        <div class="dbw-container">
+
+            <div class="dbw-header">
+                <p class="dbw-small">GET IN TOUCH</p>
+                <h2>Book Your <span>Ocean Experience</span></h2>
+            </div>
+
+            <form class="dbw-form" id="contactForm">
+
+                <div class="dbw-group">
+                    <input type="text" name="full_name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="dbw-group">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <select name="visit_type" required>
+                        <option value="">Select Visit Type</option>
+                        <option>General Entry</option>
+                        <option> fish tour</option>
+                        <option> Package</option>
+                        <option>Experience</option>
+                    </select>
+                </div>
+
+                <div class="dbw-group">
+                    <input type="date" name="visit_date">
+                    <input type="number" name="guests" placeholder="Number of Guests">
+                </div>
+
+                <textarea name="message" placeholder="Your Message"></textarea>
+
+                <div class="dbw-options">
+                    <label>
+                        <input type="checkbox">
+                        aquarium
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        fish food
+                    </label>
+                </div>
+
+                <button type="submit" class="dbw-btn">contact us</button>
+                <p class="contact-form-note mb-0">Submitting opens your email app with a ready message to Deep Bloom World.</p>
+
+            </form>
+
+        </div>
+    </section>
+    <section class="aqua-contact-strip">
+        <div class="container">
+            <div class="row g-4 align-items-stretch">
+                <div class="col-md-4">
+                    <div class="aqua-contact-card">
+                        <img src="/img/additional_1.webp" alt="Call support">
+                        <h5>Quick call support</h5>
+                        <p>Speak with us for product guidance, visit planning, or aquarium setup questions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aqua-contact-card">
+                        <img src="/img/additional_2.webp" alt="Visit booking">
+                        <h5>Visit booking help</h5>
+                        <p>Get help choosing the right visit type, package, or a smoother family experience.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aqua-contact-card">
+                        <img src="/img/additional_3.webp" alt="Product queries">
+                        <h5>Product queries</h5>
+                        <p>Ask about decor, food, accessories, and maintenance essentials before you buy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aqua-faq-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <span class="aqua-eyebrow">VISIT HELP</span>
+                    <h2 class="aqua-section-title">Common questions people ask before they visit or buy.</h2>
+                    <p class="aqua-section-text">This gives the contact page more trust and makes it feel less empty while answering real visitor questions.</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="aqua-faq-list">
+                        <div class="aqua-faq-item">
+                            <h5>Do you help with aquarium product selection?</h5>
+                            <p>Yes, we can guide visitors on decor, care supplies, fish food, and starter setup essentials.</p>
+                        </div>
+                        <div class="aqua-faq-item">
+                            <h5>Can families or groups book in advance?</h5>
+                            <p>Yes, you can contact us for general visits, family bookings, or custom experience queries.</p>
+                        </div>
+                        <div class="aqua-faq-item">
+                            <h5>Do you support first-time aquarium owners?</h5>
+                            <p>Absolutely. We can suggest beginner-friendly products and simple care routines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- map -->
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d56936.74492546303!2d80.93696!3d26.886143999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1770622082085!5m2!1sen!2sin"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="db-footer">
+        <div class="db-container">
+
+            <!-- Left Section -->
+            <div class="db-col">
+                <div class="db-logo">
+                    <img src="/img/newlogo.webp" alt="Deep Bloom Logo">
+
+                    <p class="tag">Amazing Aquarium</p>
+                </div>
+
+                <p><b>Location:</b> Chinhat, Lucknow, India</p>
+                <p><b>Phone:</b> +91 0000000000</p>
+                <p><b>Email:</b> info@deepbloom.com</p>
+                <p><b>Opening hours:</b> 9:00 AM - 6:00 PM</p>
+
+                <div class="db-social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+
+            <!-- Middle Section -->
+            <div class="db-col">
+                <h3>Menu & Links</h3>
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Section -->
+            <div class="db-col">
+                <h3>Instagram</h3>
+                <div class="db-gallery">
+                    <img src="/img/insta1.webp">
+                    <img src="/img/insta2.webp">
+                    <img src="/img/insta3.webp">
+                    <img src="/img/insta4.webp">
+                    <img src="/img/insta5.webp">
+                    <img src="/img/insta6.webp">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- copyright -->
+
+    <div class="copyright-section">
+        <div class="container">
+            <p>&copy; 2026 Awesome Aquarium. All Rights Reserved. | Privacy &amp; Terms</p>
+        </div>
+    </div>
+ <a href="https://wa.me/919999999999" class="wa-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/java%20script/site.js"></script>
+
+</html>
+

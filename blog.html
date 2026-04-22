@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquarium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+      <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar navbar-light bg-white">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="/img/logo.webp" alt="logo" class="logo-img img-fluid">
+                <span class="ms-2 company-name">Deep Bloom World</span>
+            </a>
+
+            <!-- Toggle Button -->
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Center Menu -->
+                <ul class="navbar-nav mx-auto text-center fw-semibold gap-lg-4">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+                <!-- Right Side -->
+                <div class="d-flex align-items-center gap-3 flex-lg-row flex-column mt-3 mt-lg-0">
+
+                    <!-- Cart Icon -->
+                    <a href="#" class="cart-icon">
+                        <i class="bi bi-cart3"></i>
+                    </a>
+
+                    <!-- Contact Button -->
+                    <a href="contact.html" class="btn contact-btn">
+                        Contact For Query
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section class="about-hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6 text-white">
+                    <p class="small-text">Deep Bloom World</p>
+                    <h1 class="hero-title">
+                        Our
+                        <span>Aquarium Blogs</span>
+                    </h1>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogggg -->
+    <section class="db-blog py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+
+                    <!-- BLOG CARD 1 -->
+                    <div class="blog-card position-relative mb-5">
+                        <div class="date-box">
+                            <h3>02</h3>
+                            <span>NOV</span>
+                        </div>
+
+                        <img src="/img/blog111.webp" class="img-fluid w-100" alt="blog">
+
+                        <div class="blog-content p-4">
+                            <h3>Wild Life Experience</h3>
+                            <p>Explore the beauty of marine life at Deep Bloom World Aquarium.</p>
+                        </div>
+                    </div>
+
+
+                    <!-- BLOG CARD 2 -->
+                    <div class="blog-card position-relative mb-5">
+                        <div class="date-box">
+                            <h3>10</h3>
+                            <span>DEC</span>
+                        </div>
+
+                        <img src="/img/blog122.webp" class="img-fluid w-100" alt="blog">
+
+                        <div class="blog-content p-4">
+                            <h3>Underwater World Adventure</h3>
+                            <p>Discover colorful fishes and amazing underwater creatures.</p>
+                        </div>
+                    </div>
+
+
+                    <!-- BLOG CARD 3 -->
+                    <div class="blog-card position-relative mb-5">
+                        <div class="date-box">
+                            <h3>15</h3>
+                            <span>JAN</span>
+                        </div>
+
+                        <img src="/img/blog14.webp" class="img-fluid w-100" alt="blog">
+
+                        <div class="blog-content p-4">
+                            <h3>Meet Our Aquatic Fishes</h3>
+                            <p>Learn about rare and beautiful species at our aquarium.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sidebar-box mb-4">
+                        <input type="text" class="form-control" id="blogSearchInput" placeholder="Search Here">
+                    </div>
+
+                    <div class="sidebar-box p-4">
+                        <h4 class="mb-4">Categories</h4>
+                        <ul class="category-list">
+                            <li data-blog-filter="wild life">Wild Life <span>15</span></li>
+                            <li data-blog-filter="underwater">Underwater News <span>29</span></li>
+                            <li data-blog-filter="aquatic fishes">Fish Stories <span>105</span></li>
+                        </ul>
+                        <p class="blog-search-empty d-none mb-0">No matching blog found. Try another keyword.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="aqua-showcase-section aqua-soft-bg">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <span class="aqua-eyebrow">EDITOR'S PICKS</span>
+                    <h2 class="aqua-section-title">Fresh reads for aquarium lovers and first-time tank owners.</h2>
+                    <p class="aqua-section-text">Quick ideas, setup inspiration, and practical care notes that make the blog page feel more useful and more alive.</p>
+                    <div class="aqua-mini-list">
+                        <div class="aqua-mini-card">
+                            <img src="/img/blog11.webp" alt="Aquarium trends">
+                            <div>
+                                <h6>Aquascape trends</h6>
+                                <p>See what layouts and decor themes are getting attention right now.</p>
+                            </div>
+                        </div>
+                        <div class="aqua-mini-card">
+                            <img src="/img/blog12.webp" alt="Care tips">
+                            <div>
+                                <h6>Easy care routines</h6>
+                                <p>Feeding, cleaning, and maintenance tips that keep tanks clearer for longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="aqua-feature-grid blog-feature-grid">
+                        <div class="aqua-feature-card">
+                            <img src="/img/blog13.webp" alt="Marine stories">
+                            <h5>Marine stories</h5>
+                            <p>Behind-the-scenes content, fish highlights, and beautiful underwater snapshots.</p>
+                        </div>
+                        <div class="aqua-feature-card">
+                            <img src="/img/blog14.webp" alt="Visitor favorites">
+                            <h5>Visitor favorites</h5>
+                            <p>Popular blog topics that help readers choose decor, products, and tank ideas faster.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aqua-newsletter-section">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <span class="aqua-eyebrow">JOIN THE COMMUNITY</span>
+                    <h2 class="aqua-section-title">Get new aquarium tips, decor ideas, and care stories every week.</h2>
+                    <p class="aqua-section-text">This extra section makes the blog page feel more complete and gives visitors a clear reason to stay connected with your brand.</p>
+                </div>
+                <div class="col-lg-5">
+                    <form class="aqua-newsletter-box" id="newsletterForm">
+                        <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe Now</button>
+                    </form>
+                    <p class="contact-form-note mt-3 mb-0">Subscribe opens a ready email request addressed to Deep Bloom World.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="db-footer">
+        <div class="db-container">
+
+            <!-- Left Section -->
+            <div class="db-col">
+                <div class="db-logo">
+                    <img src="/img/newlogo.webp" alt="Deep Bloom Logo">
+
+                    <p class="tag">Amazing Aquarium</p>
+                </div>
+                <p><b>Location:</b> Chinhat, Lucknow, India</p>
+                <p><b>Phone:</b> +91 0000000000</p>
+                <p><b>Email:</b> info@deepbloom.com</p>
+                <p><b>Opening hours:</b> 9:00 AM - 6:00 PM</p>
+
+                <div class="db-social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <!-- Middle Section -->
+            <div class="db-col">
+                <h3>Menu & Links</h3>
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Section -->
+            <div class="db-col">
+                <h3>Instagram</h3>
+                <div class="db-gallery">
+                    <img src="/img/insta1.webp">
+                    <img src="/img/insta2.webp">
+                    <img src="/img/insta3.webp">
+                    <img src="/img/insta4.webp">
+                    <img src="/img/insta5.webp">
+                    <img src="/img/insta6.webp">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- copyright -->
+    <div class="copyright-section">
+        <div class="container">
+            <p>&copy; 2026 Awesome Aquarium. All Rights Reserved. | Privacy &amp; Terms</p>
+        </div>
+    </div>
+     <a href="https://wa.me/919999999999" class="wa-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/java%20script/site.js"></script>
+
+</html>
+
