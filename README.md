@@ -6,5 +6,4 @@ Aquarium Management System ek software project hai jo aquarium ke fish data, fee
 🐟 Fish details add/update/delete
 ⏰ Feeding schedule management
 💧 Water quality monitoring (pH, temperature)
-🧹 Maintenance tracking
 📊 Simple dashboard view
