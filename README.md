@@ -10,4 +10,4 @@ Features
 
 The system includes functionalities for managing fish-related information, maintaining feeding schedules, monitoring water parameters such as temperature and pH levels, and recording maintenance activities. It is designed with a user-friendly interface to ensure ease of use and accessibility.
 
-Technologies Used
+
