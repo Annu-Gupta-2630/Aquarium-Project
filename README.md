@@ -1,9 +1,10 @@
 📌 Description
 
-Aquarium Management System ek software project hai jo aquarium ke fish data, feeding schedule, water quality aur maintenance ko manage karne ke liye banaya gaya hai. Ye system users ko aquarium activities ko track aur control karne me help karta hai.
+The Aquarium Management System is a software project designed to help manage aquarium activities such as fish records, feeding schedules, water quality, and maintenance. It provides an easy way to track and organize all aquarium-related tasks.
 
 🚀 Features
-🐟 Fish details add/update/delete
-⏰ Feeding schedule management
-💧 Water quality monitoring (pH, temperature)
-📊 Simple dashboard view
+🐟 Add, update, and delete fish details
+⏰ Manage feeding schedules
+💧 Monitor water quality (pH, temperature)
+🧹 Track maintenance activities
+📊 Simple and user-friendly dashboard
